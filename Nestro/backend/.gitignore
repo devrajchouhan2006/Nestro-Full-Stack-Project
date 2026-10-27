@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+.DS_Store
+coverage/
+.mongodb-binaries/
+
+# Development mail outbox — emails saved to disk when SMTP is not configured
+.mail-outbox/
